@@ -1,0 +1,10 @@
+[package]
+name = "rsuuid"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = { version = "1.8.0", features = ["v4"] }
+clap = { version = "~2.27.0", features = ["yaml"] }
